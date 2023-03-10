@@ -37,14 +37,20 @@
                     <view key="view" contentMode="scaleToFill" id="OU3-1x-cHU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="IMG_4762" translatesAutoresizingMaskIntoConstraints="NO" id="bbn-kg-H2A">
+                                <rect key="frame" x="-56" y="59" width="547" height="710"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="czt-Aq-UKO"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Combine" image="timer" catalog="system" id="8cs-8f-4pt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KOc-bJ-nqU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1427" y="789"/>
+            <point key="canvasLocation" x="-1428.2442748091603" y="788.73239436619724"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="2Wp-Gk-Vrz">
@@ -74,14 +80,20 @@
                     <view key="view" contentMode="scaleToFill" id="kK3-Mt-Y2W">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="IMG_4763" translatesAutoresizingMaskIntoConstraints="NO" id="qvM-6H-ITe">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="8gP-IN-p0L"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="NFL+" image="plus" catalog="system" id="4Jt-hc-mZw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F1e-mk-8hd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-468" y="789"/>
+            <point key="canvasLocation" x="-469.46564885496178" y="788.73239436619724"/>
         </scene>
         <!--Irrelevant #4-->
         <scene sceneID="b1x-jc-MDq">
@@ -90,14 +102,20 @@
                     <view key="view" contentMode="scaleToFill" id="VKY-hm-bvq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="IMG_4764" translatesAutoresizingMaskIntoConstraints="NO" id="pfQ-mQ-nFZ">
+                                <rect key="frame" x="-15" y="59" width="420" height="710"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="0ui-IL-FeR"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Teams" image="football.fill" catalog="system" id="J3h-D4-f04"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0gP-1t-dJT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653" y="789"/>
+            <point key="canvasLocation" x="652.67175572519079" y="788.73239436619724"/>
         </scene>
         <!--Moments-->
         <scene sceneID="R16-Pg-Vko">
@@ -275,6 +293,34 @@
                     <view key="view" contentMode="scaleToFill" id="p7T-nX-Oek">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waC-f2-rcW">
+                                <rect key="frame" x="16" y="103" width="215" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Lincoln Field "/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="arrowtriangle.down.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="dll-13-EN3">
+                                <rect key="frame" x="187" y="112.33333333333348" width="30" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Outside Stadium - Main Entrance " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jwk-CQ-N36">
+                                <rect key="frame" x="16" y="153" width="256" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Screen Shot 2023-03-10 at 1.51.01 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Lzm-Gi-JEe">
+                                <rect key="frame" x="-248" y="182" width="888" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="play.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QzX-qe-3UB">
+                                <rect key="frame" x="142" y="249" width="109" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="U3R-zu-Rlv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -282,7 +328,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ks4-dm-QzW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3364" y="562"/>
+            <point key="canvasLocation" x="3362.5954198473282" y="561.97183098591552"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="E7n-2j-JUP">
@@ -322,20 +368,25 @@
     </scenes>
     <resources>
         <image name="IMG_4761" width="828" height="1566"/>
+        <image name="IMG_4762" width="828" height="1551"/>
+        <image name="IMG_4763" width="828" height="1559"/>
+        <image name="IMG_4764" width="828" height="1538"/>
         <image name="Kelsey" width="835" height="414"/>
         <image name="Screen Shot 2023-03-09 at 11.33.01 PM" width="760" height="463"/>
         <image name="Screen Shot 2023-03-09 at 11.40.01 PM" width="518" height="294"/>
         <image name="Screen Shot 2023-03-09 at 11.42.38 PM" width="638" height="397"/>
+        <image name="Screen Shot 2023-03-10 at 1.51.01 AM" width="1371" height="690"/>
+        <image name="arrowtriangle.down.fill" catalog="system" width="32" height="32"/>
         <image name="croppedEaglesFan" width="720" height="720"/>
         <image name="croppedPlayerInCrowd" width="400" height="400"/>
         <image name="croppedSadFan" width="1188" height="1188"/>
         <image name="croppedVikingFan" width="421" height="421"/>
-        <image name="eyeglasses" catalog="system" width="128" height="55"/>
-        <image name="football.fill" catalog="system" width="128" height="119"/>
-        <image name="homekit" catalog="system" width="128" height="104"/>
-        <image name="play.fill" catalog="system" width="117" height="128"/>
-        <image name="plus" catalog="system" width="128" height="113"/>
-        <image name="timer" catalog="system" width="128" height="123"/>
+        <image name="eyeglasses" catalog="system" width="32" height="32"/>
+        <image name="football.fill" catalog="system" width="32" height="32"/>
+        <image name="homekit" catalog="system" width="32" height="32"/>
+        <image name="play.fill" catalog="system" width="32" height="32"/>
+        <image name="plus" catalog="system" width="32" height="32"/>
+        <image name="timer" catalog="system" width="32" height="32"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
