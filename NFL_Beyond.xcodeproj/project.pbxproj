@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F4E6FCC29BABC250097ABD4 /* MomentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E6FCB29BABC250097ABD4 /* MomentsViewController.swift */; };
+		8F4E6FCE29BABC510097ABD4 /* SideEyesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E6FCD29BABC510097ABD4 /* SideEyesViewController.swift */; };
+		8F4E6FD029BABC9F0097ABD4 /* BeyondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E6FCF29BABC9F0097ABD4 /* BeyondViewController.swift */; };
+		8F4E6FD229BAE2F50097ABD4 /* [ONTIVA.COM] Travis Kelce GOES OFF on the Cincinnati Mayor after win vs. Bengals-720p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E6FD129BAE2F40097ABD4 /* [ONTIVA.COM] Travis Kelce GOES OFF on the Cincinnati Mayor after win vs. Bengals-720p.mp4 */; };
 		8F685A5329BAA594005A3245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F685A5229BAA594005A3245 /* AppDelegate.swift */; };
 		8F685A5529BAA594005A3245 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F685A5429BAA594005A3245 /* SceneDelegate.swift */; };
 		8F685A5729BAA594005A3245 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F685A5629BAA594005A3245 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F4E6FCB29BABC250097ABD4 /* MomentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsViewController.swift; sourceTree = "<group>"; };
+		8F4E6FCD29BABC510097ABD4 /* SideEyesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideEyesViewController.swift; sourceTree = "<group>"; };
+		8F4E6FCF29BABC9F0097ABD4 /* BeyondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyondViewController.swift; sourceTree = "<group>"; };
+		8F4E6FD129BAE2F40097ABD4 /* [ONTIVA.COM] Travis Kelce GOES OFF on the Cincinnati Mayor after win vs. Bengals-720p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "[ONTIVA.COM] Travis Kelce GOES OFF on the Cincinnati Mayor after win vs. Bengals-720p.mp4"; sourceTree = "<group>"; };
 		8F685A4F29BAA593005A3245 /* NFL_Beyond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFL_Beyond.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F685A5229BAA594005A3245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F685A5429BAA594005A3245 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +64,13 @@
 		8F685A5129BAA593005A3245 /* NFL_Beyond */ = {
 			isa = PBXGroup;
 			children = (
+				8F4E6FD129BAE2F40097ABD4 /* [ONTIVA.COM] Travis Kelce GOES OFF on the Cincinnati Mayor after win vs. Bengals-720p.mp4 */,
 				8F685A5229BAA594005A3245 /* AppDelegate.swift */,
 				8F685A5429BAA594005A3245 /* SceneDelegate.swift */,
 				8F685A5629BAA594005A3245 /* ViewController.swift */,
+				8F4E6FCF29BABC9F0097ABD4 /* BeyondViewController.swift */,
+				8F4E6FCB29BABC250097ABD4 /* MomentsViewController.swift */,
+				8F4E6FCD29BABC510097ABD4 /* SideEyesViewController.swift */,
 				8F685A5829BAA594005A3245 /* Main.storyboard */,
 				8F685A5B29BAA595005A3245 /* Assets.xcassets */,
 				8F685A5D29BAA595005A3245 /* LaunchScreen.storyboard */,
@@ -128,6 +140,7 @@
 				8F685A5F29BAA595005A3245 /* LaunchScreen.storyboard in Resources */,
 				8F685A5C29BAA595005A3245 /* Assets.xcassets in Resources */,
 				8F685A5A29BAA594005A3245 /* Main.storyboard in Resources */,
+				8F4E6FD229BAE2F50097ABD4 /* [ONTIVA.COM] Travis Kelce GOES OFF on the Cincinnati Mayor after win vs. Bengals-720p.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4E6FCC29BABC250097ABD4 /* MomentsViewController.swift in Sources */,
+				8F4E6FD029BABC9F0097ABD4 /* BeyondViewController.swift in Sources */,
 				8F685A5729BAA594005A3245 /* ViewController.swift in Sources */,
+				8F4E6FCE29BABC510097ABD4 /* SideEyesViewController.swift in Sources */,
 				8F685A5329BAA594005A3245 /* AppDelegate.swift in Sources */,
 				8F685A5529BAA594005A3245 /* SceneDelegate.swift in Sources */,
 			);
